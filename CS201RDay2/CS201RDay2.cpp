@@ -49,8 +49,8 @@ void calcDistance() {
         //cin >> x >> y;
         x = rand()%21 - 10;
         y = rand()%21 - 10;
-        x1 = rand() % 20 - 10;
-        y1 = rand() % 20 - 10;
+        x1 = rand() % 21 - 10;
+        y1 = rand() % 21 - 10;
 
         dist = sqrt(x * x + y * y);
         dist1 = sqrt(x1 * x1 + y1 * y1);
